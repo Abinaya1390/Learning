@@ -1,0 +1,28 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abinaya",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cucumber": "^7.0.0",
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "convert-excel-to-json": "^1.7.0",
+    "cucumber": "^7.0.0-rc.0",
+    "cucumber-html-reporter": "5.4.0",
+    "exceljs": "^4.2.1",
+    "fs-extra": "^10.0.0",
+    "protractor": "^7.0.0",
+    "read-excel-file": "^5.1.0",
+    "ts-node": "10.0.0",
+    "typescript": "3.4.3",
+    "xlsx": "^0.17.0",
+    "@types/node": "^12.20.13",
+    "protractor-cucumber-framework": "^8.1.0"
+  },
+  "devDependencies": {}
+}

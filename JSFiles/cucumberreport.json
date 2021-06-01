@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "amazon;login-amazon-page",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "login Amazon page",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "launch the URL",
+            "match": {
+              "location": "..\\Features\\Step_Definitions\\StepDef.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7314000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter the login",
+            "match": {
+              "location": "..\\Features\\Step_Definitions\\StepDef.ts:17"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I search for the item",
+            "match": {
+              "location": "..\\Features\\Step_Definitions\\StepDef.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4119000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "amazon",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Amazon",
+    "tags": [],
+    "uri": "..\\Features\\Test1.feature"
+  }
+]
